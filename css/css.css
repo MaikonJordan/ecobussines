@@ -66,12 +66,17 @@ body {
 	font-family:"MyriadPro-Regular";
 	font-size: 26px;
 }
+.menuPrincipal{
+	position: relative;
+	top: -20px;
+	left: 400px;
+}
 .menuPrincipal a {
 	text-decoration: none;
 	font-family: "MyriadPro-BoldCond";
 	color: #ffffff;
 	font-size: 16px;
-
+	padding: 8px;
 }
 .menuRodape a{
 	text-decoration: none;
@@ -309,4 +314,36 @@ footer {
 .primeiroDescri {
 	float: left;
 	width: 118px;
+}
+.mensagemBotao {
+	color: #fff0FF;
+	padding: 8px;
+	font-size: 20px;
+	font-family: "MyriadPro-Regular";
+	position: relative;
+	top: 4px;
+	left: 18px;
+}
+.camadaBtn {
+	border-radius: 7px 7px 7px 7px;
+	z-index: 15;
+	position: relative;
+	top: 180px;
+	left: 450px;
+	width: 137px;
+	height: 34px;
+	background:-moz-linear-gradient(top,#514d47,#3d3a36) repeat-X;
+	background:-webkit-gradient(linear,left top,left bottom,from(#514d47),to(#3d3a36)) repeat-X;
+	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#514d47, endColorstr=#3d3a36)";
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#514d47,endColorstr=#3d3a36);	
+}
+.setaPreta {
+	background-image: url('../img/seta_preta.png');
+	background-repeat: no-repeat;
+	position: relative;
+	top: 13px;
+	left: 13px;
+	width:10px; 
+	height:34px;
+	float: left;
 }
