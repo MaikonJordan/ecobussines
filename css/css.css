@@ -1,0 +1,312 @@
+body {
+	padding-bottom:60px;
+}
+.logomarca {
+	top: 17px;
+	left: 61px;
+	position: relative;
+	z-index: 11;
+}
+.logo {
+	font-family:"DINEngschriftStd";
+	font-size: 40px;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+.logo-primeiraPalavra {
+	color: #abb820;
+}
+.tituloBlocos {
+	font-family:"MyriadPro-Cond";
+	font-size: 37px;
+}
+.tituloBlocos-PrimeiraPalavra {
+	color: #abb820;
+}
+.mensagemLinha1 {
+	font-family:"MyriadPro-Light";
+	color: #ffffff;
+	font-size: 46px;
+	z-index:10;
+	position: absolute;
+	top: 118px;
+	left: 370px;
+}
+.mensagemLinha2 {
+	color: #e7eada;
+	font-family: "MyriadPro-Semibold";
+	font-size: 24px;
+	z-index:10;
+	position: absolute;
+	top: 170px;
+	left: 417px;
+}
+.mensagemLinha3 {
+	color: #ffffff;
+	font-family:"MyriadPro-Light";
+	font-size: 29px;
+	z-index:10;
+	position: absolute;
+	top: 198px;
+	left: 389px;
+}
+.mensagemLinha4 {
+	font-family:"MyriadPro-Light";
+	color: #d5e88e;
+	font-size: 39px;
+	z-index:10;
+	position: absolute;
+	top: 200px;
+	left: 455px;
+
+}
+.mensagemBotao{
+	text-decoration: none;
+	color: #ffffff;
+	font-family:"MyriadPro-Regular";
+	font-size: 26px;
+}
+.menuPrincipal a {
+	text-decoration: none;
+	font-family: "MyriadPro-BoldCond";
+	color: #ffffff;
+	font-size: 16px;
+
+}
+.menuRodape a{
+	text-decoration: none;
+	font-family: "Tahoma";
+	color: #848484;
+	font-size: 11px;
+	text-transform: uppercase;
+}
+.direitosAutorais {
+	color: #848484;
+	margin-top: 0px;
+	text-align: center;
+	font-size: 10px;
+	font-family: "Tahoma";
+}
+.listaBloco {
+	list-style-image:url('../img/seta_verde.png');
+	margin-left: -22px;
+}
+.listaBloco li{
+	color: #000000;
+	font-size: 10px;
+	font-family: "Tahoma";
+}
+.subtituloBloco {
+	color: #cdcdcd;
+	font-family: "Arial";
+	font-size: 13px;
+	text-transform: uppercase;
+}
+.linkLerMais {
+	text-decoration: none;
+	color: #000000;
+	font-size: 15px;
+}
+.textoBloco {
+	color: #848484;
+	font-size: 11px;
+}
+.textoBloco-Comeco {
+	color: #abb820;
+	font-family: "Tahomabd";
+	font-size: 12px;
+	line-height: 10px;
+}
+.imagemLink {
+	color: #848484;
+	font-family: "Tahoma";
+	font-size: 10px;
+	float: left;
+	width: 60px;
+	line-height:14px;
+}
+.blocoComeco2{
+	font-size: 13px;
+	color: #606060;
+}
+.blocoComeco2-Palavra1{
+	color: #abb820;
+	font-family: "MyriadPro-Bold";
+}
+.blocoComeco2-Palavra2{
+	color: #abb820;
+	font-family: "MyriadPro-Regular";
+}
+.imagemTextoTitulo {
+	color: #abb820;
+	font-size: 12px;
+	font-family: "Tahomabd";
+}
+.imagemTextoDescricao {
+	color: #848484;
+	font-family: "Tahoma";
+	font-size: 11px;
+	display: block;
+}
+footer {
+	background-image: url(../img/linha_rodape.png);
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-color: #e9e9e9;
+	position:absolute;
+	bottom:0;
+	width:100%;
+    height:60px;
+    clear:both;
+}
+.fundoEscuroCabecalho {
+	background:-moz-linear-gradient(top,#2a2925,#4f4b46) repeat-X;
+	background:-webkit-gradient(linear,left top,left bottom,from(#2a2925),to(#4f4b46)) repeat-X;
+	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#2a2925, endColorstr=#4f4b46)";
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#2a2925,endColorstr=#4f4b46); 
+	width: 775px;
+	height: 415px;
+	/*background: transparent url(../img/background.png) no-repeat top center;*/
+}
+.tudo {
+	width: 775px;
+	margin:0 auto;
+	text-align:left;
+	position: relative;
+
+}
+.fundoClaroCorpo{
+	border-radius: 7px 7px 0 0;
+	background-color: #ffffff;
+	width: 675px;
+	height: 600px;
+	position: relative;
+	top: -56px;
+	margin:0 auto;
+	z-index:10;	
+}
+.desenhoPlanta {
+	z-index:9;
+	position:absolute;
+	left:53px;
+	top:83px;
+}
+.desenhoLuz {
+	z-index:8;
+	position:absolute;
+	left:57px;
+	top:-18px;
+}
+.desenhoGrama {
+	z-index:7;
+	position:absolute;
+	left:0px;
+	top:284px;
+}
+.desenhoPlaneta {
+	z-index:6;
+	position:absolute;
+	left:-83px;
+	top:12px;
+}
+.fundoClaroCorpo section {
+	width: 300px;
+	float: left;
+	margin-top: -10px;
+}
+.colunaCorpo {
+	float: left;
+	margin-left: 35px;
+	width: 280px;
+}
+.blocoMaior {
+	float: left;
+	margin-right: 17px;
+	margin-left: 5px;
+}
+.subtituloBloco {
+	float: left;
+}
+.imagemTextoTitulo {
+	float: left;
+}
+.iconeBloco {
+	float: left;
+	margin-right: 10px;
+}
+.iconeBloco2 {
+	float: left;
+	margin-left: 35px;
+	margin-right: 10px;
+	margin-bottom: 15px;
+}
+.textoBloco-Comeco2, .textoBloco2 {
+	float: left;
+	font-size: 11px;
+	line-height:14px;
+	margin-top: 0px;
+}
+
+.miniColuna {
+	float: left;
+	width: 120px;
+}
+
+.mnMargem {
+	margin-left: 22px;
+}
+.linkLerMais2 {
+	font-size: 11px;
+}
+.tituloBlocos {
+	margin-bottom: 20px;
+	border-bottom-style: dotted;
+	border-bottom-color: #cdcdcd;
+	border-width: thin;
+}
+
+.subtituloBloco {
+	border-bottom-style: dotted;
+	border-bottom-color: #cdcdcd;
+	border-width: thin;
+	margin-top: -13px;
+	margin-bottom: 15px;
+	line-height: 10px;
+	font-size: 10px;
+	text-transform: uppercase;
+	padding-bottom: 5px;
+}
+.tbSeta {
+	background-image: url('../img/seta_cinza.png');
+	background-repeat: no-repeat;
+	background-position: bottom right;
+}
+.menuRodape {
+	padding-top: 12px;
+	padding-bottom: 4px;
+	text-align: center;
+}
+
+.blocoLista {
+	float: left;
+	width: 120px;
+	margin-left: 5px;
+}
+
+.blocoLista2 {
+	margin-left: 20px;
+}
+.imagemFlor, textoFlor {
+	float: left;
+}
+
+.imagemLinkFlor {
+	color: #848484;
+	font-family: "Tahoma";
+	font-size: 10px;
+	line-height:14px;
+}
+.primeiroDescri {
+	float: left;
+	width: 118px;
+}
