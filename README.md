@@ -10,11 +10,11 @@ A maior dificuldade foi em desenvolver o layout "esqueleto" do site, principalme
 
 ###Pendências
 
-*Ajuste do rodapé ao fim da página
-*Remover a barra de rolagem de baixo
-*Colocar os fundos em gradiente no Internet Explorer
-*Ajustar o link para cima na sessão "Case Studies"
-*Ajustar detalhes de linhas no cabeçalho/menu
+* Ajuste do rodapé ao fim da página
+* Remover a barra de rolagem de baixo
+* Colocar os fundos em gradiente no Internet Explorer
+* Ajustar o link para cima na sessão "Case Studies"
+* Ajustar detalhes de linhas no cabeçalho/menu
 
 ##Conhecimentos adquiridos
 
