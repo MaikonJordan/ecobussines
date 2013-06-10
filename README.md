@@ -26,4 +26,5 @@ Foram utilizadas as tecnologias CSS3 e HTML5, e as ferramentas Adobe PhotoShop C
 
 ##Recursos utilizados
 
-Layout pronto no formato PSD, baixado gratuitamente a partir da url <>, no dia 14/05/2013 às 14:00. 
+Layout pronto no formato PSD, baixado gratuitamente a partir do site [Xooplate](http://xooplate.com/template/details/2627-eco-business-psd-template "Xooplate"), no dia 14/05/2013 às 14:00. 
+
